@@ -1,0 +1,66 @@
+/* Magic Mirror Custom CSS Sample
+ *
+ * Change color and fonts here.
+ *
+ * Beware that properties cannot be unitless, so for example write '--gap-body: 0px;' instead of just '--gap-body: 0;'
+ *
+ * MIT Licensed.
+ */
+
+/* Uncomment and adjust accordingly if you want to import another font from the google-fonts-api: */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap'); */
+
+.region.top.left {
+  width: 80%;
+}
+
+.CX2 .cellSlot.weekday_6 .slotSubTitle, .CX2 .cellSlot.weekday_7 .slotSubTitle  {
+  color: #999
+}
+
+.region.middle.center {
+  width: 75%;
+}
+
+.CX2 .event {
+  border-left-width: 0.25em;
+  border-left-style: solid;
+  color: #FFFFFF;
+}
+.CX2 .event.fullday {
+  color: #FFFFFF;
+}
+
+/* User Specific Calendar Entries */
+.CX2 .sarah.event {
+  border-left-color: #b39ddb;
+  background-color: #b39ddb44;
+}
+.CX2 .adam.event {
+  border-left-color: #7986cb;
+  background-color: #7986cb44;
+}
+.CX2 .holiday.event { 
+    border-left-color: #33b679;
+    background-color: #33b67944;
+}
+
+:root {
+  --color-text: #999;
+  --color-text-dimmed: #666;
+  --color-text-bright: #fff;
+  --color-background: black;
+
+  --font-primary: "Roboto Condensed";
+  --font-secondary: "Roboto";
+  
+  --font-size: 20px;
+  --font-size-small: 0.75rem;
+
+  --gap-body-top: 60px;
+  --gap-body-right: 60px;
+  --gap-body-bottom: 60px;
+  --gap-body-left: 60px;
+  
+  --gap-modules: 30px;
+}
