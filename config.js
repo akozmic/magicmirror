@@ -126,7 +126,7 @@ let config = {
 					position: "top_right",
 					slotCount: 5,
 					locale: "en",
-					hideOverflow: true,
+					hideOverflow: false,
 					hideFooter: true,
 					timeFormat: "h:mma"
 				},
